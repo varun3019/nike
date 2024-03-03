@@ -1,14 +1,11 @@
 import React from 'react'
-import {Hero,Fotter,CustomerReviews,Services,PropularProduct,SpecialOffer} from '../sections/index'
+import {Fotter,CustomerReviews,Services,PropularProduct,SpecialOffer} from '../sections/index'
 import Nav from './Nav';
 
 export const Home = () => {
   return (
     <main className="relative">
     <Nav/>
- <section className="xl:padding-1 wide:padding-r padding-b">
-    <Hero/>
- </section>
   <section className="padding">
     <PropularProduct />
   </section>
